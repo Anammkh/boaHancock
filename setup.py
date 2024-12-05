@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='boaHancock',
-    version='1.1.0',
+    version='1.0.4',
     author='Khoirul Anam',
     author_email='khoirulanaam4567@gmail.com',
     description='This is tools to make starter template python for create moduls or library',
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'boa start=boaHancock.generator:main',
+            'boaHancock =boaHancock.generator:main',
         ],
     },
     include_package_data=True,

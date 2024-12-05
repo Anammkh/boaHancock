@@ -3,17 +3,17 @@
 
 This is project to generate starter template for create moduls or library in python
 
-## Fitur
+## Feature
 
-- Membuat struktur folder dasar untuk proyek Python, termasuk folder `src` dan `test`.
-- Menghasilkan file `LICENSE` berdasarkan jenis lisensi yang dipilih.
-- Menghasilkan file `README.md` dengan template dasar.
-- Membuat file `setup.py` yang telah dikonfigurasi untuk pengemasan proyek Python.
-- Menghasilkan file `.gitignore` untuk mengabaikan file yang tidak perlu.
+- create folder `poject_name` and `test`.
+- create file `LICENSE` from license list selected.
+- create file `README.md` from templates .
+- make file `setup.py` configured to deployment.
+- make file `.gitignore` for configure to deployment in github.
 - Membuat file `__init__.py` di dalam folder `src` untuk modul Python.
-- Menyediakan berbagai pilihan lisensi seperti MIT, Apache, BSD-3-Clause, dan lainnya.
+- provide license like a MIT, Apache, BSD-3-Clause, e, g.
 
-## Langkah Instalasi
+## Instalation
 ```bash
 git clone https://github.com/Anammkh/boaHancock.git
 cd boaHancock/boaHancock/
@@ -23,7 +23,7 @@ python generator.py
 ```
 pip install boaHancock
 
-boa start
+boaHancock
 ```
 
 ## 
