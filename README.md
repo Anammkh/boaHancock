@@ -21,7 +21,9 @@ python generator.py
 ```
 ## or using pip
 ```
+pip install boaHancock
 
+boa start
 ```
 
 ## 

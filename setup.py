@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='boaHancock',
-    version='1.0.0',
+    version='1.1.0',
     author='Khoirul Anam',
     author_email='khoirulanaam4567@gmail.com',
     description='This is tools to make starter template python for create moduls or library',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Anammkh/boaHancock',
+    url='https://github.com/Anammkh/boaHancock',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
