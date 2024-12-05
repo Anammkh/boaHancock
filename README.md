@@ -15,8 +15,15 @@ This is project to generate starter template for create moduls or library in pyt
 
 ## Langkah Instalasi
 ```bash
+git clone https://github.com/Anammkh/boaHancock.git
+cd boaHancock/Boa/
+python generator.py
+```
+## or using pip
+```
 pip install boaHancock --break-system-packages
-```
-```
+
 boa start
 ```
+
+## 
