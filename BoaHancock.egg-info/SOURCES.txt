@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+Boa/__init__.py
+Boa/generator.py
+Boa/templates/__init__.py
+Boa/templates/setup.py
+BoaHancock.egg-info/PKG-INFO
+BoaHancock.egg-info/SOURCES.txt
+BoaHancock.egg-info/dependency_links.txt
+BoaHancock.egg-info/entry_points.txt
+BoaHancock.egg-info/requires.txt
+BoaHancock.egg-info/top_level.txt
+tests/__init__.py
+tests/test_generator.py

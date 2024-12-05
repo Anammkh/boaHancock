@@ -1,0 +1,2 @@
+[console_scripts]
+boa start = boa.generator:main
