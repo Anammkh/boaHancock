@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='BoaHancock',
+    name='boaHancock',
     version='1.0.0',
     author='Khoirul Anam',
-    author_email='khoirlanaam4567@gmail.com',
+    author_email='khoirulanaam4567@gmail.com',
     description='This is tools to make starter template python for create moduls or library',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Anammkh/BoaHancock',
+    url='https://github.com/Anammkh/boaHancock',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -18,8 +18,12 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'boa start=boa.generator:main', 
+            'boa start=boaHancock.generator:main',
         ],
+    },
+    include_package_data=True,
+    package_data={
+        '': ['templates/*'],
     },
     install_requires=[
         'termcolor',
