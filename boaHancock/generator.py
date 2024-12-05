@@ -19,7 +19,7 @@ class BoaHancock:
         Create the folder structure for the project.
         """
         os.makedirs(self.project_path, exist_ok=True)
-        os.makedirs(os.path.join(self.project_path, f"{project_name}"), exist_ok=True)
+        os.makedirs(os.path.join(self.project_path, f"{self.project_name}"), exist_ok=True)
         os.makedirs(os.path.join(self.project_path, "test"), exist_ok=True)
         print(colored(f"Project structure created at {self.project_path}"), "green")
 
@@ -63,7 +63,7 @@ class BoaHancock:
         Generate __init__.py file in the src folder.
         """
         init_template = os.path.join(self.template_path, "__init__.py")
-        src_folder = os.path.join(self.project_path, f"{project_name}")
+        src_folder = os.path.join(self.project_path, f"{self.project_name}")
 
         if not os.path.exists(init_template):
             raise FileNotFoundError("__init__ Pro.py template not found in templates directory.")
